@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.855">
-    <testcase classname="US1016 aranan urunun ortlama fiyatini test etme" name="TC21 aranan urunun ortalama fiyati test edilebilmeli" time="6.757">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.661">
+    <testcase classname="US1001 Kullanici amazonda test yapar" name="TC01 Kullanici amazonda Nutella aratir" time="10.395">
         <system-out>
-            <![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
-Then amazon arama kutusuna "Nutella" yazip aratir...........................passed
-And cikan urunlerden "Nutella" kelimesi icerenlerin fiyat ortalamasinin 20 euro altinda oldugunu test eder.passed
+            <![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna Nutella yazip aratir.............................passed
+And arama sonuclarinin Nutella icerdigini test eder.........................passed
+Then sayfayi kapatir........................................................passed
 ]]>
         </system-out>
     </testcase>
